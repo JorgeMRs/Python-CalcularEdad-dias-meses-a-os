@@ -42,30 +42,8 @@ def calcular_edad(dia_nacio:int, mes_nacio:int,anio_nacio:int,dia_actual:int,mes
                
             
     
-    return "ustes tiene : ", años, " años con", meses , " meses y ", dias, " dias." ,  dias_sobra, sobras
-    #return  dias_sobra
+    return "ustes tiene : ", años, " años con", meses , " meses y ", dias, " dias." 
+   
 
 
-    # if AN < anio_actual:
-    #     while AN <  anio_actual:
-    #         DN = DN + 1
-    #         if DN > 30:
-    #             MN = MN + 1
-    #             if MN > 12:
-    #                 AN += 1
-            
-    # else:
-    #     if AN == anio_actual:
-    #         AN = 0
-    #         if MN < mes_actual:
-    #             while MN < mes_actual:
-    #                 MN = MN +1 
-    #                 x +=1
-    #         else:
-    #             MN = 9
-    #             AN = 9
-    #             DN = 9
-      
-    #return (DN , MN, AN)             
-    #return ("Usted Tiene ",str(AN), "anios", str(MN), "meses y ", str(DN), "dias") 
-       
+ 
